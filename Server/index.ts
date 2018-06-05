@@ -1,5 +1,4 @@
 import * as restify from 'restify'
-import * as dotenv from 'dotenv'
 
 //Iniciando Servidor
 export class Serve {
@@ -38,7 +37,8 @@ export class Serve {
     //Final Iniciando as Rotas
 
     //Bootstrap para Iniciar a App
-    public bootstrap(rotas = []){
+    public bootstrap(rotas = [])
+    {
         return this.initRoutes(rotas).then( ()=> this );
     }
 
