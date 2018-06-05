@@ -1,12 +1,12 @@
 {
   "name": "estudonode",
   "version": "1.0.0",
-  "description": "",
+  "description": "Modelo Criado para facilitar o dia a dia de desenvolvedores que queiram aplicar projeto rápido com o restify.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "author": "Dener Troquatte",
   "license": "ISC",
   "dependencies": {
     "dotenv": "^6.0.0",
